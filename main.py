@@ -53,7 +53,7 @@ amount = 0
 levels = [1000, 2000, 3000, 5000, 10000, 20000, 40000, 80000, 160000,
           320000, 640000, 1250000, 2500000, 5000000, 10000000, 70000000]
 
-print(f"There will be total of {len(questionList)}. All the very best!!!\N{grinning face}")
+print(f"There will be total of {len(questionList)} questions. All the very best!!!\N{grinning face}")
 for i in range(0, len(questionList)):
     print("\n")
     print(f"The question for Rs.{levels[i]} is:\n")
